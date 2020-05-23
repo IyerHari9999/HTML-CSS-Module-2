@@ -10,39 +10,41 @@ body{
 
 h1 {
   margin-bottom: 50px;
-  background-color:rgba(255, 255, 255, 0.6);
+  background-color:rgba(0, 0, 0, 0.6);
   padding: 25px 0px 20px 0px;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 200%;
   font-weight: bold;
   font-family: calibri;
 }
 
 p {
-  padding: 0px 25px 0px 25px;
+  padding: 0px 25px 20px 25px;
   font-family: calibri bold;
   font-size: 22px;
   color: white;
   font-style: italic;
   text-align: justify;
+  float: left;
 }
 
 .name{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
+  margin: 20px 20px 10px 10px;
+  padding: 10px 40px 10px 40px;
   font-family: calibri;
   font-weight: 900;
   font-size: 25px;
-  border-radius: 30px 30px 0px 0px;
+  float: right;
+  clear: left;
+  border-radius: 5px;
 }
 
 .bg{
     background-color:rgba(0,0,0,0.8);
-    margin: 10px 10px 10px 10px;
-    border-radius: 30px;
-    height: 350px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    height: 400px;
     overflow: auto;
 
 }
@@ -136,5 +138,8 @@ p {
   }
   .col-md-12 {
     width: 100%;
+  }
+  .row-2 {
+    height: 300px;
   }
 }
