@@ -27,6 +27,7 @@ p {
   color: white;
   font-style: italic;
   text-align: justify;
+  overflow: auto;
 }
 
 .name{
