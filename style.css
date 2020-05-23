@@ -8,7 +8,7 @@ body{
   margin: 0px 0px 0px 0px;
 }
 
-div{
+p{
 overflow: auto;
 }
 
@@ -31,7 +31,6 @@ p {
   color: white;
   font-style: italic;
   text-align: justify;
-  overflow: scroll;
 }
 
 .name{
@@ -49,7 +48,6 @@ p {
     margin: 10px 10px 10px 10px;
     border-radius: 30px;
     height: 350px;
-    overflow: scroll;
 
 }
 
